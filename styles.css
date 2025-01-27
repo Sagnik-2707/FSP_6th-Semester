@@ -1,23 +1,24 @@
 body {
+    font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0; /* Light gray background */
-    font-family: sans-serif; /* Use a sans-serif font */
+    min-height: 100vh;
+    background-color: #f0f0f0;
   }
-
+  
+  .container {
+    text-align: center;
+  }
+  
   .input-box {
-    background-color: #fff; /* White background for the box */
-    border: 1px solid #ccc; /* Light gray border */
+    background-color: #fff;
+    border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
-    width: 300px;
-    height: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
-
+  
   input[type="text"] {
     width: 90%;
     padding: 10px;
@@ -25,12 +26,15 @@ body {
     border: 1px solid #ccc;
     border-radius: 3px;
   }
-
+  
   button {
-    background-color: #4CAF50; /* Green button */
+    background-color: #4CAF50;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 3px;
     cursor: pointer;
+  }
+  #fetchedData{
+    font : 2px;
   }
